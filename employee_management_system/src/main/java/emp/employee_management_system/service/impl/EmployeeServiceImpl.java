@@ -26,7 +26,7 @@ public class    EmployeeServiceImpl implements EmployeeService {
         employee.setLastName(employeeRequestDto.getLastName());
         employee.setJoiningDate(employeeRequestDto.getJoiningDate());
         employee.setDesignation(employeeRequestDto.getDesignation());
-        employee.setSalary(employee.getSalary());
+        employee.setSalary(employeeRequestDto.getSalary());
         employee.setPreviousDesignation(employeeRequestDto.getPreviousDesignation());
         employee.setQualification(employeeRequestDto.getQualification());
 
